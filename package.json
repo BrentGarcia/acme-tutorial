@@ -1,16 +1,24 @@
 {
-  "name": "mywebsite",
+  "name": "acme",
   "version": "1.0.0",
-  "description": "",
+  "description": "Tutorial to practice building a responsive Html/CSS web page.",
   "main": "index.js",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrentGarcia/acme-tutorial.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "homepage":"https://BrentGarcia.github.io/acme-tutorial",
-  "dependencies": {
-    "gh-pages": "^2.2.0"
-  }
+  "bugs": {
+    "url": "https://github.com/BrentGarcia/acme-tutorial/issues"
+  },
+  "homepage": "https://BrentGarcia.github.io/acme-tutorial"
 }
